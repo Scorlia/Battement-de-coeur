@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devive-width, initial-scale=1.0">
+    <title>Battements de coeur</title>
+    <style>
+        body{
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(48, 56, 79);
+        }
+
+        .heart{
+            font-size: 300px;
+            color: #e00;
+            transform-origin: center;
+        }
+
+        .heart:hover{
+            cursor: cell;
+            animation: beat 0.50s infinite alternate;
+        }
+
+        @keyframes beat{
+            to{
+                transform: scale(2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="Battements de coeur.css">
+</body>
+
+    <div class="heart">&#x2665;</div>
+        
+</html>
